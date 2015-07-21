@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="הוספת חשבון" />
+
+    <Spinner
+        android:id="@+id/spinnerMonth"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+    
+    <EditText
+        android:id="@+id/etCounterBill0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="קריאת מונה אבי"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etCounterBill1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="קריאת מונה דירה1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etCounterBill2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="קריאת מונה דירה2"
+        android:inputType="number" />
+    
+<Button
+        android:id="@+id/bSaveNewBill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="אישור" />
+
+</LinearLayout>

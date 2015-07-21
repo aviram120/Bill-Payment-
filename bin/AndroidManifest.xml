@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.billdata"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="חשבונות"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.billdata.menu"
+            android:label="חשבונות" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ElectrBill"></activity>
+        <activity android:name=".showData"></activity>
+        <activity android:name=".addBill"></activity>
+        <activity android:name=".coversionrate"></activity>
+        
+         <include layout="@layout/addbill"/>
+         <include layout="@layout/showdata"/>
+          <include layout="@layout/conversionrate"/>
+          <activity android:name=".password"></activity>
+          <activity android:name=".updataLestExpe"></activity>
+          <activity android:name=".WaterBill"></activity>
+    </application>
+
+</manifest>
