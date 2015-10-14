@@ -5,11 +5,10 @@ this project is for home owner that have Apartments for rent.
 the app Calculates the amount of pay for each manth
 
 To download to phone:<br>
-1. go to "bin" folder<br>
-2. download tha "billData.apk" file to your desktop <br>
-3. transfer the file to your android phone<br>
-4. opne the file from your android phone- and install the file(Automatically)<br>
-5. opne the app from you desktop in your phone<br>
+1. download tha "billData.apk" file to your desktop from <a href="https://www.dropbox.com/s/4ohvn54xflt4cqo/billData.apk?dl=0">here</a><br>
+2. transfer the file to your android phone<br>
+3. opne the file from your android phone- and install the file(Automatically)<br>
+4. opne the app from you desktop in your phone<br>
 
 Good luck<br>
 aviram
